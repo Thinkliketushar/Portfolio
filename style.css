@@ -240,7 +240,7 @@ section .title::after {
 }
 
 .home .home-content .text-1 {
-    font-size: 40px;
+    font-size: 30px;
 }
 
 .home .home-content .text-2 {
@@ -1224,12 +1224,13 @@ footer span a:hover {
 @media (max-width: 600px) {
 
     .max-width {
-        padding: 0 23px;
+        padding: 0 15px;
     }
 
     .home {
         height: 50%;
         background: black;
+        min-height: 450px;
     }
 
     .home .home-content .text-2 {
@@ -1289,6 +1290,19 @@ footer span a:hover {
     .services3 .title{
         font-size: 16px !important;
     }
+
+    .about .title{
+        font-size: 16px !important;
+    }
+
+    .about .title::after{
+        font-size: 16px !important;
+    }
+
+
+
+
+
 
 .services3 .card .box .imgs{
     width: 40% !important;
