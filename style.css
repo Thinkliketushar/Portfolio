@@ -1230,10 +1230,6 @@ footer span a:hover {
     .home {
         height: 50%;
         background: black;
-<<<<<<< HEAD
-=======
-
->>>>>>> 43b6cfb10586a400cdc81c0cafbe51413a7330d5
     }
 
     .home .home-content .text-2 {
@@ -1251,17 +1247,23 @@ footer span a:hover {
     .services .serv-content .card {
         width: 100%;
         font-size: 10px;
+        margin: 3px;
+        padding: 10px;
     }
 
     .services1 .serv-content .card {
         width: 100%;
         font-size: 10px;
+        margin: 3px;
+        padding: 10px;
 
     }
 
     .services3 .serv-content .card {
         width: 100%;
         font-size: 10px;
+        margin: 3px;
+        padding: 10px;
 
     }
 
@@ -1274,6 +1276,24 @@ footer span a:hover {
         width: 100%;
         font-size: 12px !important;
     }
+    .services3 .serv-content .card .text{
+        width: 100%;
+        font-size: 12px !important;
+    }
+
+
+    .teams .title{
+        font-size: 16px !important;
+    }
+
+    .services3 .title{
+        font-size: 16px !important;
+    }
+
+.services3 .card .box .imgs{
+    width: 40% !important;
+}
+
 
 }
 
